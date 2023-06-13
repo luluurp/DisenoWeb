@@ -88,15 +88,14 @@ header a {
 }
 
 img {
-    transition: opacity 0.3s ease-in-out;
+    transition-property: initial;
+    transition-duration: 200ms;
   }
   
   img:hover {
-    opacity: 0.10;
+    opacity: 0.03;
   }
   
-
-
 @media (max-width: 768px) {
 
     header {
@@ -110,6 +109,16 @@ img {
         background-color: white;
     
     }
+
+    img {
+        transition-property: initial;
+        transition-duration: 200ms;
+      }
+      
+      img:hover {
+        opacity: 0.03;
+      }
+      
     
     footer {
         background-color: #dabfdc;
